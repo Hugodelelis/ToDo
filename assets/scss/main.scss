@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import './variables.scss';
+@import './blocks.scss';
+@import './components.scss';
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: $gray-600;
+    color: $gray-100;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
