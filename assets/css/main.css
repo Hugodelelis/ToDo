@@ -72,11 +72,11 @@ main {
   align-items: center;
   padding: 0 1em;
 }
-.taskInformation .creats__tasks {
+.taskInformation .created__tasks {
   color: #4EA8DE;
   gap: 0.5em;
 }
-.taskInformation .creats__tasks :nth-child(2) {
+.taskInformation .created__tasks :nth-child(2) {
   color: #F2F2F2;
   background-color: #333333;
   margin-left: 0.45em;
