@@ -34,7 +34,7 @@ main {
   min-width: 60%;
   border-radius: 0.5em;
   background-color: #333333;
-  border: none;
+  border: 1px solid #333333;
   color: #F2F2F2;
   font-size: 1em;
   box-shadow: 0.24em 0.24em 1em #1A1A1A;
