@@ -14,10 +14,22 @@
 <body>
     <header id="myHeader">
         <img src="assets/imgs/Logo.svg" alt="logo" class="header__logo">
-        <div class="header__add">
-            <input type="text" placeholder="Adicione uma tarefa" class="header__input">
-            <button type="button" class="header__button">Criar<i class="bi bi-plus-circle"></i></button>
-        </div>
     </header>
+
+    <main>
+        <section class="taskAdd">
+            <form action="#" class="task__form">
+                <input type="text" class="task__input__submit" placeholder="Adicione uma tarefa" value="">
+                <button type="button" class="task__button__submit">Criar<i class="bi bi-plus-circle"></i></button>
+            </form>
+        </section>
+
+        <section class="taskInformation">
+            <div class="creats__tasks"><span>Tarefas criadas</span><span>0</span></div>
+            <div class="conclued__tasks"><span>Concluidas</span><span>2 de 5</span></div>
+        </section>
+        <div class="wrapperLine"></div>
+    </main>
+
 </body>
 </html>

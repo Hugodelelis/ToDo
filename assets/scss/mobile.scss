@@ -1,0 +1,97 @@
+#myHeader {
+    min-width: 100%;
+    min-height: 20vh;
+    background-color: $gray-700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+main {
+    min-height: 100vh;
+}
+
+.taskAdd {
+    position: relative;
+    bottom: -17vh;
+    .task__form {
+        min-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .35em;
+
+        .task__input__submit {
+            padding: .75em 1em;
+            min-width: 60%;
+            border-radius: .5em;
+            background-color: $gray-400;
+            border: none;
+            color: $gray-100;
+            font-size: 1em;
+            box-shadow: .24em .24em 1em $gray-800;
+            &::placeholder{ 
+                color: $gray-300;
+            } 
+            &:focus {
+                outline: none;
+                border: 1px solid $blue-dark;
+            }
+        }
+
+        .task__button__submit {
+            cursor: pointer;
+            padding: .75em 1em;
+            display: flex;
+            font-size: 1em;
+            gap: .25em;
+            border: none;
+            border-radius: .5em;
+            background-color: $blue-dark;
+            color: $gray-100;
+            transition: all 0.4s ease-out;
+            &:hover {
+                background-color: $blue;
+            }
+        }
+    }
+}
+
+.taskInformation {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 22vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+    .creats__tasks {
+        color: $blue;
+        gap: .5em;
+        :nth-child(2) {
+            color: $gray-100;
+            background-color: $gray-400;
+            margin-left: .45em;
+            padding: .25em .80em;
+            border-radius: .75em;
+        }
+    }
+    
+    .conclued__tasks {
+        color: $purple;
+        :nth-child(2) {
+            color: $gray-100;
+            background-color: $gray-400;
+            margin-left: .45em;
+            padding: .25em .80em;
+            border-radius: .75em;
+        }
+    }
+}
+
+.wrapperLine {
+    background-color: $gray-400;
+    max-width: 90%;
+    margin: 3vh auto;
+    min-height: .35vh;
+}
