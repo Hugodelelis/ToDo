@@ -14,7 +14,7 @@ main {
 
 .taskAdd {
     position: relative;
-    bottom: -17vh;
+    bottom: -16vh;
     .task__form {
         min-width: 100%;
         display: flex;
@@ -97,3 +97,18 @@ main {
     margin: 3vh auto;
     min-height: .35vh;
 }
+
+.tasksView {
+    text-align: center;
+    min-height: 50vh;
+    .bi {
+        font-size: 12em;
+        color: $gray-400;
+    }
+    :nth-child(2) {
+        color: $gray-300;
+    }
+    :nth-child(3) {
+        color: $gray-200;
+    }
+}   
