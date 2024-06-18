@@ -14,7 +14,7 @@ main {
 
 .taskAdd {
     position: relative;
-    bottom: -16vh;
+    bottom: -17vh;
     .task__form {
         min-width: 100%;
         display: flex;
@@ -99,7 +99,10 @@ main {
 }
 
 .tasksView {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     min-height: 50vh;
     .bi {
         font-size: 12em;
