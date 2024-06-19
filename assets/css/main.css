@@ -20,7 +20,7 @@ main {
 
 .taskAdd {
   position: relative;
-  bottom: -17vh;
+  bottom: -16vh;
 }
 .taskAdd .task__form {
   min-width: 100%;
@@ -120,6 +120,9 @@ main {
 }
 
 @media screen and (min-width: 768px) {
+  .taskAdd {
+    bottom: -18.2vh;
+  }
   .taskInformation {
     max-width: 65%;
   }
@@ -129,6 +132,11 @@ main {
   }
   .wrapperLine {
     max-width: 65%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .taskAdd {
+    bottom: -16.5vh;
   }
 }
 body {
