@@ -1,8 +1,4 @@
 @media screen and (min-width: 768px) {
-    .taskAdd  {
-        bottom: -18.2vh;
-    }
-
     .taskInformation {
         max-width: 65%;
     }
@@ -14,11 +10,5 @@
 
     .wrapperLine {
         max-width: 65%;
-    }
-}
-
-@media screen and (min-width:1200px) {
-    .taskAdd  {
-        bottom: -16.5vh;
     }
 }
